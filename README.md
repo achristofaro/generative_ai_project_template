@@ -5,7 +5,7 @@ Projetado para reduzir o caos no início do desenvolvimento e dar suporte à man
 
 [![Siga @achristofaro](https://img.shields.io/badge/Follow-%40HeyNina101-1da1f2?style=flat&logo=github)](https://github.com/achristofaro)  
 
-[![Dê uma estrela a este repositório](https://img.shields.io/badge/⭐%20Star-generative__ai__project-ffcc00?style=flat&logo=github)](https://github.com/achristofaro/generative_ai_project_template)  
+[![Dê uma estrela a este repositório](https://img.shields.io/badge/⭐%20Star-generative__ai__project__template-ffcc00?style=flat&logo=github)](https://github.com/achristofaro/generative_ai_project_template)  
 
 ---
 
