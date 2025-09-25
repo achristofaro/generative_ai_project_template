@@ -3,7 +3,7 @@
 Um template pronto para produção para ajudar você a iniciar e organizar seus projetos de IA Generativa com clareza e escalabilidade em mente.  
 Projetado para reduzir o caos no início do desenvolvimento e dar suporte à manutenção de longo prazo com estrutura e práticas já comprovadas.  
 
-[![Siga @achristofaro](https://img.shields.io/badge/Follow-%40HeyNina101-1da1f2?style=flat&logo=github)](https://github.com/achristofaro)  
+[![Siga @achristofaro](https://img.shields.io/badge/Follow-%40achristofaro-1da1f2?style=flat&logo=github)](https://github.com/achristofaro)  
 
 [![Dê uma estrela a este repositório](https://img.shields.io/badge/⭐%20Star-generative__ai__project__template-ffcc00?style=flat&logo=github)](https://github.com/achristofaro/generative_ai_project_template)  
 
