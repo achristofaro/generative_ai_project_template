@@ -1,92 +1,88 @@
-# 🧠 Generative AI Project Template
+# 🧠 Template para Projetos de IA Generativa  
 
-A production-ready template to help you kickstart and organize your Generative AI projects with clarity and scalability in mind.  
-Designed to reduce chaos in early development and support long-term maintainability with proven structure and practices.
+Um template pronto para produção para ajudar você a iniciar e organizar seus projetos de IA Generativa com clareza e escalabilidade em mente.  
+Projetado para reduzir o caos no início do desenvolvimento e dar suporte à manutenção de longo prazo com estrutura e práticas já comprovadas.  
 
-[![Follow @HeyNina101](https://img.shields.io/badge/Follow-%40HeyNina101-1da1f2?style=flat&logo=github)](https://github.com/HeyNina101)
+[![Siga @achristofaro](https://img.shields.io/badge/Follow-%40HeyNina101-1da1f2?style=flat&logo=github)](https://github.com/achristofaro)  
 
-[![Star this repo](https://img.shields.io/badge/⭐%20Star-generative__ai__project-ffcc00?style=flat&logo=github)](https://github.com/HeyNina101/generative_ai_project)
-
-
----
-
-## 📋 Project Overview
-
-A production-ready template for building scalable Generative AI apps — structured, maintainable, and built on real-world best practices.
+[![Dê uma estrela a este repositório](https://img.shields.io/badge/⭐%20Star-generative__ai__project-ffcc00?style=flat&logo=github)](https://github.com/achristofaro/generative_ai_project_template)  
 
 ---
 
-## 🔧 Key Components
+## 📋 Visão Geral do Projeto  
+
+Um template pronto para produção para construir aplicativos de IA Generativa escaláveis — estruturado, sustentável e baseado em boas práticas do mundo real.  
+
+---
+
+## 🔧 Componentes Principais  
 
 ```
+📁 config/ → Configurações YAML para modelos, prompts e logging  
+📁 data/ → Prompts, embeddings e outros conteúdos dinâmicos  
+📁 examples/ → Scripts mínimos para testar recursos principais  
+📁 notebooks/ → Experimentos rápidos e prototipagem  
+📁 tests/ → Testes unitários, de integração e ponta a ponta  
 
-📁 config/ → YAML config for models, prompts, logging
-📁 data/ → Prompts, embeddings, and other dynamic content
-📁 examples/ → Minimal scripts to test key features
-📁 notebooks/ → Quick experiments and prototyping
-📁 tests/ → Unit, integration, and end-to-end tests
-
-📁 src/ → The core engine — all logic lives here:
-├── agents/ → Agent classes: planner, executor, base agent
-├── memory/ → Short-term and long-term memory modules
-├── pipelines/ → Chat flows, doc processing, and task routing
-├── retrieval/ → Vector search and document lookup
-├── skills/ → Extra abilities: web search, code execution
-├── vision_audio/ → Multimodal processing: image and audio
-├── prompt_engineering/→ Prompt chaining, templates, few-shot logic
-├── llm/ → OpenAI, Anthropic, and custom LLM routing
-├── fallback/ → Recovery logic when LLMs fail
-├── guardrails/ → PII filters, output validation, safety checks
-├── handlers/ → Input/output processing and error management
-└── utils/ → Logging, caching, rate limiting, token counting
-
+📁 src/ → O núcleo do motor — toda a lógica fica aqui:
+├── agents/ → Classes de agentes: planejador, executor, agente base  
+├── memory/ → Módulos de memória de curto e longo prazo  
+├── pipelines/ → Fluxos de chat, processamento de documentos e roteamento de tarefas  
+├── retrieval/ → Busca vetorial e consulta de documentos  
+├── skills/ → Habilidades extras: busca na web, execução de código  
+├── vision_audio/ → Processamento multimodal: imagem e áudio  
+├── prompt_engineering/ → Encadeamento de prompts, templates, few-shot logic  
+├── llm/ → OpenAI, Anthropic e roteamento de LLMs personalizados  
+├── fallback/ → Lógica de recuperação quando LLMs falham  
+├── guardrails/ → Filtros de PII, validação de saída e verificações de segurança  
+├── handlers/ → Processamento de entrada/saída e gestão de erros  
+└── utils/ → Logging, cache, rate limiting e contagem de tokens  
 ```
----
-
-## ⚡ Best Practices
-
-- Track prompt versions and results  
-- Separate configs using YAML files  
-- Structure code by clear module boundaries  
-- Cache responses to reduce latency and cost  
-- Handle errors with custom exceptions  
-- Use notebooks for rapid testing and iteration  
-- Monitor API usage and set rate limits  
-- Keep code and docs in sync  
 
 ---
 
-## 🧭 Getting Started
+## ⚡ Boas Práticas  
 
-1. Clone the repo  
-2. Install via `requirements.txt`  
-3. Set up model configs  
-4. Check sample code  
-5. Begin in notebooks  
-
----
-
-## 💡 Development Tips
-
-- Use modular structure  
-- Test components early  
-- Track with version control  
-- Keep datasets fresh  
-- Monitor API usage  
+- Rastrear versões de prompts e resultados  
+- Separar configurações usando arquivos YAML  
+- Estruturar o código com limites claros de módulos  
+- Cachear respostas para reduzir latência e custo  
+- Tratar erros com exceções customizadas  
+- Usar notebooks para testes rápidos e iteração  
+- Monitorar uso de APIs e definir limites de taxa  
+- Manter código e documentação sempre sincronizados  
 
 ---
 
-## 📁 Core Files
+## 🧭 Primeiros Passos  
 
-- `requirements.txt` – Package dependencies  
-- `README.md` – Project overview and usage  
-- `Dockerfile` – Container build instructions  
+1. Clone o repositório  
+2. Instale via `requirements.txt`  
+3. Configure os modelos  
+4. Confira o código de exemplo  
+5. Comece pelos notebooks  
+
+---
+
+## 💡 Dicas de Desenvolvimento  
+
+- Use estrutura modular  
+- Teste componentes desde cedo  
+- Rastreie com controle de versão  
+- Mantenha datasets atualizados  
+- Monitore o uso de APIs  
 
 ---
 
-## 📄 License
+## 📁 Arquivos Principais  
 
-This project is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).  
-You are free to use, modify, and distribute with minimal restriction.
+- `requirements.txt` – Dependências de pacotes  
+- `README.md` – Visão geral do projeto e instruções de uso  
+- `Dockerfile` – Instruções para build de container  
 
 ---
+
+## 📄 Licença  
+
+Este projeto está licenciado sob a [Licença Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
+Você é livre para usar, modificar e distribuir com restrições mínimas.  
